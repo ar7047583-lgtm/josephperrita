@@ -1,0 +1,70 @@
+body {
+    background-color: lightgray;
+    font-family: Arial, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+}
+.jony{
+
+    background-color: rgba(34, 62, 62, 0.753);
+    padding: 20px, 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+}
+.banner img {
+
+    height: 300px;
+    row-gap: 34px;
+    border-radius: 10%;
+    
+    
+}
+.redes {
+    display: flex ;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.btn-ig {
+    background-color:  rgba(34, 62, 62, 0.753);
+     text-decoration: none;
+    position: relative;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-weight: normal;
+    transition: 0.3s;
+    letter-spacing: 1px;
+    overflow: hidden;
+    border-radius: 5%;
+}
+.btn-fa{
+    background-color:  rgba(34, 62, 62, 0.753);
+     text-decoration: none;
+    position: relative;
+    color: rgb(255, 255, 255);
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-weight: normal ;
+    transition: 0.3s;
+    letter-spacing: 1px;
+    overflow: hidden;
+    border-radius: 5%;
+}
+
+.btn-ig:hover, .btn-fa:hover {
+    animation-delay:1ms;
+    background-color: rgb(20, 37, 32);
+    color: white;   
+    animation: 0.3s;
+    animation-fill-mode: forwards;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.253);
+ 
+}                                                   
